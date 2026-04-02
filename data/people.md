@@ -11,7 +11,7 @@ Dr. Duy-Anh Nguyen is a researcher and lecturer at UTC, specializing in intellig
 
 ===
 ---
-name: Prof. Khanh-Nghi Dang
+name: Prof. Nam-Khanh Dang
 initials: KN
 role: Principal Investigator
 affiliation: University of Aizu, Aizu-Wakamatsu, Japan
