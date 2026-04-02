@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTC — UoA Research Collaboration</title>
+    <meta name="description" content="Collaborative research initiative between the University of Transport and Communications (Vietnam) and the University of Aizu (Japan)">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-brand">
+                <span class="nav-brand-utc">UTC</span>
+                <span class="nav-brand-times">&times;</span>
+                <span class="nav-brand-uoa">UoA</span>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#people" class="nav-link">People</a>
+                <a href="#students" class="nav-link">Students</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#publications" class="nav-link">Publications</a>
+                <a href="#activities" class="nav-link">Activities</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                    <svg class="theme-icon sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                    <svg class="theme-icon moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+                <button class="nav-mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-bg">
+                <div class="hero-gradient"></div>
+                <div class="hero-grid-pattern"></div>
+                <div class="hero-floating-shapes">
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                    <div class="shape shape-3"></div>
+                    <div class="shape shape-4"></div>
+                    <div class="shape shape-5"></div>
+                </div>
+            </div>
+            <div class="hero-content">
+                <div class="hero-badge reveal">
+                    <span class="hero-badge-dot"></span>
+                    International Research Collaboration
+                </div>
+                <h1 class="hero-title reveal">
+                    Bridging <em>Hanoi</em> and <em>Aizu</em><br>
+                    Through Research
+                </h1>
+                <p class="hero-subtitle reveal">
+                    A joint initiative between the University of Transport and Communications<br class="hide-mobile">
+                    and the University of Aizu, advancing knowledge in computing and engineering.
+                </p>
+                <div class="hero-universities reveal">
+                    <div class="hero-uni">
+                        <div class="hero-uni-shield">
+                            <span>UTC</span>
+                        </div>
+                        <div class="hero-uni-info">
+                            <strong>University of Transport<br>and Communications</strong>
+                            <small>Hanoi, Vietnam</small>
+                        </div>
+                    </div>
+                    <div class="hero-connector">
+                        <div class="connector-line"></div>
+                        <div class="connector-dot"></div>
+                        <div class="connector-line"></div>
+                    </div>
+                    <div class="hero-uni">
+                        <div class="hero-uni-shield">
+                            <span>UoA</span>
+                        </div>
+                        <div class="hero-uni-info">
+                            <strong>University of Aizu</strong>
+                            <small>Aizu-Wakamatsu, Japan</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-scroll-indicator reveal">
+                    <span>Scroll to explore</span>
+                    <div class="scroll-arrow">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M7 13l5 5 5-5M7 6l5 5 5-5"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-label">About</span>
+                    <h2 class="section-title">The Collaboration</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div id="about-content" class="about-content reveal"></div>
+                <div id="about-stats" class="stats-grid reveal"></div>
+            </div>
+        </section>
+
+        <div class="wave-divider">
+            <svg viewBox="0 0 1440 60" preserveAspectRatio="none">
+                <path d="M0,30 C360,60 720,0 1080,30 C1260,45 1380,35 1440,30 L1440,60 L0,60 Z"></path>
+            </svg>
+        </div>
+
+        <section id="people" class="section section-alt">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-label">People</span>
+                    <h2 class="section-title">Lead Researchers</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div id="people-grid" class="people-grid"></div>
+            </div>
+        </section>
+
+        <section id="students" class="section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-label">Team</span>
+                    <h2 class="section-title">Current Students</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="filter-tabs reveal" id="studentFilters"></div>
+                <div id="students-grid" class="students-grid"></div>
+            </div>
+        </section>
+
+        <div class="wave-divider wave-divider-flip">
+            <svg viewBox="0 0 1440 60" preserveAspectRatio="none">
+                <path d="M0,30 C360,60 720,0 1080,30 C1260,45 1380,35 1440,30 L1440,60 L0,60 Z"></path>
+            </svg>
+        </div>
+
+        <section id="projects" class="section section-alt">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-label">Research</span>
+                    <h2 class="section-title">Projects</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div id="projects-grid" class="projects-grid"></div>
+            </div>
+        </section>
+
+        <section id="publications" class="section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-label">Output</span>
+                    <h2 class="section-title">Selected Publications</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div id="publications-list" class="publications-list"></div>
+            </div>
+        </section>
+
+        <div class="wave-divider">
+            <svg viewBox="0 0 1440 60" preserveAspectRatio="none">
+                <path d="M0,30 C360,60 720,0 1080,30 C1260,45 1380,35 1440,30 L1440,60 L0,60 Z"></path>
+            </svg>
+        </div>
+
+        <section id="activities" class="section section-alt">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-label">Updates</span>
+                    <h2 class="section-title">News & Activities</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div id="activities-timeline" class="timeline"></div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-label">Reach Out</span>
+                    <h2 class="section-title">Contact</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div id="contact-content" class="contact-grid reveal"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="nav-brand-utc">UTC</span>
+                    <span class="nav-brand-times">&times;</span>
+                    <span class="nav-brand-uoa">UoA</span>
+                </div>
+                <p class="footer-text">University of Transport and Communications &mdash; University of Aizu</p>
+                <p class="footer-copy">&copy; 2024&ndash;<span id="footerYear"></span> All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
